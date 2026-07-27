@@ -1,0 +1,79 @@
+{
+  "_framework-DjPHiq1u.js": {
+    "file": "assets/framework-DjPHiq1u.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js"
+    ]
+  },
+  "_rolldown-runtime-S-ySWqyJ.js": {
+    "file": "assets/rolldown-runtime-S-ySWqyJ.js",
+    "name": "rolldown-runtime"
+  },
+  "_subpage-shell-Dv02y8O8.js": {
+    "file": "assets/subpage-shell-Dv02y8O8.js",
+    "name": "subpage-shell",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-DjPHiq1u.js"
+    ]
+  },
+  "app/about/page.tsx": {
+    "file": "assets/page-CwKjoaSR.js",
+    "name": "page",
+    "src": "app/about/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_subpage-shell-Dv02y8O8.js",
+      "_framework-DjPHiq1u.js"
+    ]
+  },
+  "app/page.tsx": {
+    "file": "assets/page-DFgfLpK7.js",
+    "name": "page",
+    "src": "app/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-DjPHiq1u.js"
+    ]
+  },
+  "app/trade-terms/page.tsx": {
+    "file": "assets/page-D85tVyhE.js",
+    "name": "page",
+    "src": "app/trade-terms/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_subpage-shell-Dv02y8O8.js",
+      "_framework-DjPHiq1u.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "assets/layout-segment-context-Bn75QeD8.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-DjPHiq1u.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "assets/index-m9OgPeIt.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-DjPHiq1u.js"
+    ],
+    "dynamicImports": [
+      "app/about/page.tsx",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "virtual:vinext-app-browser-entry",
+      "app/page.tsx",
+      "app/trade-terms/page.tsx"
+    ]
+  }
+}
