@@ -10,8 +10,8 @@
     "file": "assets/rolldown-runtime-S-ySWqyJ.js",
     "name": "rolldown-runtime"
   },
-  "_subpage-shell-Dv02y8O8.js": {
-    "file": "assets/subpage-shell-Dv02y8O8.js",
+  "_subpage-shell-DXILVqZ6.js": {
+    "file": "assets/subpage-shell-DXILVqZ6.js",
     "name": "subpage-shell",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -19,17 +19,17 @@
     ]
   },
   "app/about/page.tsx": {
-    "file": "assets/page-CwKjoaSR.js",
+    "file": "assets/page-a9hSmK7M.js",
     "name": "page",
     "src": "app/about/page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_subpage-shell-Dv02y8O8.js",
+      "_subpage-shell-DXILVqZ6.js",
       "_framework-DjPHiq1u.js"
     ]
   },
   "app/page.tsx": {
-    "file": "assets/page-BOBApzlc.js",
+    "file": "assets/page-DBCHe0uH.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
@@ -39,17 +39,17 @@
     ]
   },
   "app/trade-terms/page.tsx": {
-    "file": "assets/page-D85tVyhE.js",
+    "file": "assets/page-BIU-R7jB.js",
     "name": "page",
     "src": "app/trade-terms/page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_subpage-shell-Dv02y8O8.js",
+      "_subpage-shell-DXILVqZ6.js",
       "_framework-DjPHiq1u.js"
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-BI3w-iwU.js",
+    "file": "assets/layout-segment-context-BCULPOBA.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -60,7 +60,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-uhRGEv--.js",
+    "file": "assets/index-C1_-qQZA.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
